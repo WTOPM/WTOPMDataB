@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\wtopm\\Documents\\GitHub\\WTOPMDataB\\API\\API.csproj": {}
+    "c:\\Users\\wtopm\\Documents\\GitHub\\WTOPMDataB\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wtopm\\Documents\\GitHub\\WTOPMDataB\\API\\API.csproj": {
+    "c:\\Users\\wtopm\\Documents\\GitHub\\WTOPMDataB\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wtopm\\Documents\\GitHub\\WTOPMDataB\\API\\API.csproj",
+        "projectUniqueName": "c:\\Users\\wtopm\\Documents\\GitHub\\WTOPMDataB\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\wtopm\\Documents\\GitHub\\WTOPMDataB\\API\\API.csproj",
+        "projectPath": "c:\\Users\\wtopm\\Documents\\GitHub\\WTOPMDataB\\API\\API.csproj",
         "packagesPath": "C:\\Users\\wtopm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wtopm\\Documents\\GitHub\\WTOPMDataB\\API\\obj\\",
+        "outputPath": "c:\\Users\\wtopm\\Documents\\GitHub\\WTOPMDataB\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\wtopm\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -55,6 +55,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.0.3, )"
             }
           },
           "imports": [
