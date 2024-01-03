@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "AYwtLAfhTUytKYrGZVGpVbWnl+P0JCZS6LBfx/PExayXliwrlu38m3q4uVRaEND2JBXxrOxgeupTRIHn3V8p+A==",
+  "dgSpecHash": "xdwpqa0cwvqjvYHASSF65b5pBF3fSHs+wbcpNp3viNmKRsqlf/AoyKYj1C7lhUalc+i0s/52al7a2qStjNxhbA==",
   "success": true,
-  "projectFilePath": "c:\\Users\\wtopm\\Documents\\GitHub\\WTOPMDataB\\API\\API.csproj",
+  "projectFilePath": "C:\\Users\\wtopm\\Documents\\GitHub\\WTOPMDataB\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\wtopm\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\wtopm\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.0\\microsoft.aspnetcore.authentication.jwtbearer.8.0.0.nupkg.sha512",
     "C:\\Users\\wtopm\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.0\\microsoft.aspnetcore.openapi.8.0.0.nupkg.sha512",
     "C:\\Users\\wtopm\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\wtopm\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",
@@ -34,6 +35,8 @@
     "C:\\Users\\wtopm\\.nuget\\packages\\microsoft.identitymodel.abstractions\\7.0.3\\microsoft.identitymodel.abstractions.7.0.3.nupkg.sha512",
     "C:\\Users\\wtopm\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\7.0.3\\microsoft.identitymodel.jsonwebtokens.7.0.3.nupkg.sha512",
     "C:\\Users\\wtopm\\.nuget\\packages\\microsoft.identitymodel.logging\\7.0.3\\microsoft.identitymodel.logging.7.0.3.nupkg.sha512",
+    "C:\\Users\\wtopm\\.nuget\\packages\\microsoft.identitymodel.protocols\\7.0.3\\microsoft.identitymodel.protocols.7.0.3.nupkg.sha512",
+    "C:\\Users\\wtopm\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\7.0.3\\microsoft.identitymodel.protocols.openidconnect.7.0.3.nupkg.sha512",
     "C:\\Users\\wtopm\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.0.3\\microsoft.identitymodel.tokens.7.0.3.nupkg.sha512",
     "C:\\Users\\wtopm\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
     "C:\\Users\\wtopm\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
