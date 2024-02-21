@@ -1,0 +1,26 @@
+2024-01-05 16:48:15,397 [main.py:33 -                 init() ] INFO: Starting with args: {'continuing_project': False, '--external-log-process-port': '8125', '--api-key': '*****', 'user_id': 'b3db9721-b358-4a60-9d66-bb0f7eeec4d3', 'workspace': None, 'app_id': '39ef9d69-444f-4a83-a221-013ef15dc909', 'email': 'wtopm@list.ru', 'password': '*****', 'step': None}
+2024-01-05 16:48:34,441 [prompts.py:60 -             ask_user() ] INFO: Q: What is the project name?
+2024-01-05 16:48:34,442 [prompts.py:61 -             ask_user() ] INFO: A: WTOPMDataB
+2024-01-05 16:58:17,092 [prompts.py:49 - ask_for_main_app_definition() ] INFO: Initial App description done: Create a node.js app that enables users to register and log into the app. On frontend, create only 3 pages. One that enables users to log in, the other that enables users to register and the third one (this can be on the home page) that only shows the data of the logged in user. Make sure that after the registration or login, the user is kept logged in a session so that when you open the home page, you can show the logged in user data. Use sqlite for the db.
+2024-01-05 16:58:17,131 [utils.py:42 -           get_prompt() ] INFO: Getting prompt for high_level_questions/specs.prompt
+2024-01-05 16:58:17,145 [utils.py:42 -           get_prompt() ] INFO: Getting prompt for high_level_questions/specs_instruction.prompt
+2024-01-05 16:58:17,156 [utils.py:42 -           get_prompt() ] INFO: Getting prompt for system_messages/product_owner.prompt
+2024-01-05 16:58:17,159 [llm_connection.py:312 - stream_gpt_completion() ] INFO: > Request model: gpt-4-1106-preview
+2024-01-05 16:58:17,686 [llm_connection.py:352 - stream_gpt_completion() ] INFO: problem with request (status 404): {
+    "error": {
+        "message": "The model `gpt-4-1106-preview` does not exist or you do not have access to it. Learn more: https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4.",
+        "type": "invalid_request_error",
+        "param": null,
+        "code": "model_not_found"
+    }
+}
+
+2024-01-05 16:58:17,686 [llm_connection.py:237 -              wrapper() ] ERROR: There was a problem with request to openai API: API responded with status code: 404. Response text: {
+    "error": {
+        "message": "The model `gpt-4-1106-preview` does not exist or you do not have access to it. Learn more: https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4.",
+        "type": "invalid_request_error",
+        "param": null,
+        "code": "model_not_found"
+    }
+}
+
